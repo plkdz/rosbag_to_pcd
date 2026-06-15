@@ -4,7 +4,7 @@
 
 | 包 | 作用 |
 | --- | --- |
-| `rosbag_pointcloud_to_pcd` | 从 rosbag2 中读取 `sensor_msgs/msg/PointCloud2`，合并后导出为一个 PCD 文件。 |
+| `rosbag_pointcloud_to_pcd` | 从 rosbag2 中读取一个或多个 `sensor_msgs/msg/PointCloud2` 话题，合并后导出为一个 PCD 文件。 |
 | `rosbag_odom_to_waypoints` | 从 rosbag2 中读取 `nav_msgs/msg/Odometry`，导出 waypoint YAML。 |
 
 ## 目录结构
