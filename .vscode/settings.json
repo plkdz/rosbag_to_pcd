@@ -1,0 +1,11 @@
+{
+  "C_Cpp.default.compileCommands": [
+    "${workspaceFolder}/build/rosbag_pointcloud_to_pcd/compile_commands.json",
+    "${workspaceFolder}/build/rosbag_odom_to_waypoints/compile_commands.json"
+  ],
+  "C_Cpp.default.cppStandard": "c++17",
+  "C_Cpp.default.cStandard": "c17",
+  "C_Cpp.errorSquiggles": "enabled",
+  "cmake.configureOnOpen": false,
+  "ros.distro": "humble"
+}
